@@ -10,7 +10,7 @@ export default [
   js.configs.recommended,
 
   {
-    files: ["js/**/*.js"],
+    files: ["js/**/*.js", "tests/unit/**/*.test.js"],
     languageOptions: {
       globals: globals.browser,
     },
